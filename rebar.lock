@@ -1,8 +1,8 @@
 [{<<"eredis">>,
   {git,"git://github.com/wooga/eredis.git",
-       {ref,"bf12ecb30253c84a2331f4f0d93fd68856fcb9f4"}},
+       {ref,"cbc013f516e464706493c01662e5e9dd82d1db01"}},
   0},
  {<<"poolboy">>,
   {git,"git://github.com/devinus/poolboy.git",
-       {ref,"3bb3972617b3706b7fda6e264bf6bdaefbb833cd"}},
+       {ref,"3bb48a893ff5598f7c73731ac17545206d259fac"}},
   0}].
