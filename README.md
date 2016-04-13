@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.org/gbour/sharded_eredis.svg?branch=master)](https://travis-ci.org/gbour/sharded_eredis)
+
 # sharded_eredis
 
 Copyright (c) 2012 PlayMesh, Inc.

@@ -1,0 +1,21 @@
+sudo: required
+dist: trusty
+
+language: erlang
+otp_release:
+    - 18.2.1
+    - 17.5
+
+services:
+    - redis-server
+
+env:
+    global:
+        PATH=$PATH:$TRAVIS_BUILD_DIR
+
+install:
+    - make all
+
+script:
+    - ./rebar3 dialyzer
+    - make eunit
